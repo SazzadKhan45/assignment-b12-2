@@ -9,17 +9,23 @@
     padding: 0;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Noto Sans", sans-serif;
+body{
+    max-width: 1400px;
+    margin: auto;
 }
 
-p {
-    font-family: "Inter", sans-serif;
-    color: var(--p-text-color);
-}
+
 
 /* Sheared style */
+
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.display-flex {
+    display: flex;
+}
 
 :root {
     --primary-color : #E95A08;
@@ -37,7 +43,72 @@ p {
     
 }
 
-h2{
-    color: var(--primary-color);
-    font-size: var(--h1-Title-lg);
+.btn-primary{
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: var(--p-text-color);
+}
+
+/* navbar style start here */
+
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.logo img{
+    height: 4rem;
+}
+
+.nav-links {
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links ul {
+    gap: 2rem;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.nav-links a{
+    color: rgb(107, 114, 128);
+    font-weight: 600;
+    text-decoration: none;
+}
+.active{
+    color: black;
+}
+
+.shoping-car{
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+/* navbar style ended here */
+
+/* Mobile responsive style */
+
+@media screen and (max-width: 480px) {
+
+    /* navbar style */
+    .nav-container{
+        padding: 0 0.2rem;
+    }
+    .logo img{
+        height: 3rem;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    
 }
