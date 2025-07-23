@@ -14,8 +14,6 @@ body{
     margin: auto;
 }
 
-
-
 /* Sheared style */
 
 header{
@@ -31,7 +29,7 @@ header{
     --primary-color : #E95A08;
     --secondary-color : #000000;
 
-    --h1-title-lg : 4rem;
+    --h1-title-lg : 3.5rem;
     --h1-title-sm : 2rem;
 
     --h2-title-lg : 2rem;
@@ -43,10 +41,9 @@ header{
     
 }
 
-.btn-primary{
-
+h1{
+    font-size: var(--h1-title-lg);
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Noto Sans", sans-serif;
 }
@@ -54,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: "Inter", sans-serif;
     color: var(--p-text-color);
+    text-align: justify;
 }
 
 /* navbar style start here */
@@ -93,12 +91,42 @@ p {
     gap: 0.5rem;
 }
 
-
 /* navbar style ended here */
+
+/* Hero banner style start here */
+
+.hero-banner-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    height: 460px;
+    margin: 3rem 0;
+}
+.hero-info, .hero-img{
+    width: 50%;
+}
+.title{
+    margin-bottom: 1rem;
+}
+.hero-img img{
+    width: 100%;
+}
+
+.hero-title{
+    color: var(--primary-color);
+}
+
+/* Hero banner style ended here */
+
+
 
 /* Mobile responsive style */
 
 @media screen and (max-width: 480px) {
+
+    h1{
+        font-size: var(--h1-title-sm);
+    }
 
     /* navbar style */
     .nav-container{
@@ -110,5 +138,20 @@ p {
     .nav-links ul{
         display: none;
     }
+
+    /* navbar style  ended*/
+
+    /* hero banner style start */
+
+    .hero-banner-container{
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 0 0.25rem;
+    }
+    .hero-info, .hero-img{
+    width: 100%;
+}
+
+    /* hero banner style ended */
     
 }
