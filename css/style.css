@@ -1,0 +1,43 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: var(--p-text-color);
+}
+
+/* Sheared style */
+
+:root {
+    --primary-color : #E95A08;
+    --secondary-color : #000000;
+
+    --h1-title-lg : 4rem;
+    --h1-title-sm : 2rem;
+
+    --h2-title-lg : 2rem;
+    --h2-title-sm : 1.5rem;
+
+    --h4-color : rgb(107, 114, 128);
+
+    --p-text-color : rgba(0, 0, 0, 0.5);
+    
+}
+
+h2{
+    color: var(--primary-color);
+    font-size: var(--h1-Title-lg);
+}
