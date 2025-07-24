@@ -18,9 +18,9 @@ body {
 /* Sheared style */
 
 header,
-main ,
+main,
 .footer-banner-info,
-.footer-bottom-container{
+.footer-bottom-container {
     max-width: 1200px;
     margin: auto;
 }
@@ -306,7 +306,7 @@ p {
 }
 
 .zabo-plant {
-    position: relative;  
+    position: relative;
     height: 440px;
     display: flex;
     flex-direction: column;
@@ -332,11 +332,11 @@ p {
 }
 
 .bloom-plant h3,
-.bloom-plant p ,
+.bloom-plant p,
 .ana-plant h3,
 .ana-plant p,
 .zabo-plant h2,
-.zabo-plant p{
+.zabo-plant p {
     position: relative;
     z-index: 2;
 }
@@ -401,19 +401,19 @@ p {
 
 }
 
-.footer-banner-info{
+.footer-banner-info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.footer-banner-info h2{
+.footer-banner-info h2 {
     color: white;
     font-size: var(--h2-title-lg);
     margin-bottom: 0.5rem;
 }
 
-.email-field{
+.email-field {
     width: 600px;
     padding: 1rem 1.5rem;
     border-radius: 0.25rem 0 0 0.25rem;
@@ -422,13 +422,13 @@ p {
     outline: none;
 }
 
-.submit-field{
+.submit-field {
     color: white;
     font-weight: 500;
     background-color: var(--primary-color);
     font-size: 1.15rem;
     padding: 1rem 1.5rem;
-    border-radius:0 0.25rem 0.25rem 0;
+    border-radius: 0 0.25rem 0.25rem 0;
     cursor: pointer;
     border: none;
     outline: none;
@@ -436,10 +436,11 @@ p {
 
 /* Footer bottom style */
 
-.footer-bottom-container{
+.footer-bottom-container {
     margin-bottom: 3rem;
 }
-.bottom-container{
+
+.bottom-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -447,26 +448,28 @@ p {
     align-items: center;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 5rem;
 }
 
-.footer-links-1 a, .footer-links-2 a{
-    text-decoration: none;
+.footer-links-1 a,
+.footer-links-2 a {
     color: var(--p-text-color);
+    text-decoration: none;
     font-weight: 500;
 }
 
-.social-icon{
+.social-icon {
     gap: 0.5rem;
 }
 
 
-hr{
+hr {
     color: var(--h4-color);
     margin: 1.5rem 0;
 }
-.Copyright{
+
+.Copyright {
     color: var(--h4-color);
     font-size: 1rem;
     text-align: center;
@@ -563,22 +566,25 @@ hr{
 
     /* Footer banner style */
 
-    .footer-banner-container{
+    .footer-banner-container {
         height: 400px;
     }
-    .email-field{
+
+    .email-field {
         width: 100%;
     }
 
-    .footer-banner-info h2{
+    .footer-banner-info h2 {
         font-size: var(--h2-title-sm);
     }
-    .email-field, .submit-field{
+
+    .email-field,
+    .submit-field {
         padding: 0.5rem 1rem;
     }
 
     /* Footer bottom */
-    .bottom-container{
+    .bottom-container {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 1.5rem;
         padding-right: 0.25rem;
