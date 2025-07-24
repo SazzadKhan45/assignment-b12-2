@@ -434,6 +434,31 @@ p {
     outline: none;
 }
 
+/* Footer bottom style */
+
+.footer-bottom-container{
+    margin-bottom: 3rem;
+}
+.bottom-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 5rem;
+}
+
+hr{
+    color: var(--h4-color);
+    margin: 1.5rem 0;
+}
+.Copyright{
+    color: var(--h4-color);
+    text-align: center;
+}
 
 
 /* Mobile responsive style */
