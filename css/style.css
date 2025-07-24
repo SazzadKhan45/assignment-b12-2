@@ -451,12 +451,24 @@ p {
     width: 5rem;
 }
 
+.footer-links-1 a, .footer-links-2 a{
+    text-decoration: none;
+    color: var(--p-text-color);
+    font-weight: 500;
+}
+
+.social-icon{
+    gap: 0.5rem;
+}
+
+
 hr{
     color: var(--h4-color);
     margin: 1.5rem 0;
 }
 .Copyright{
     color: var(--h4-color);
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -563,6 +575,13 @@ hr{
     }
     .email-field, .submit-field{
         padding: 0.5rem 1rem;
+    }
+
+    /* Footer bottom */
+    .bottom-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 1.5rem;
+        padding-right: 0.25rem;
     }
 
 }
