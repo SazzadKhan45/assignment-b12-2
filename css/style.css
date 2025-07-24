@@ -34,7 +34,7 @@ main,
     --secondary-color: #000000;
 
     --h1-title-lg: 3.5rem;
-    --h1-title-sm: 2.5rem;
+    --h1-title-sm: 2rem;
 
     --h2-title-lg: 2rem;
     --h2-title-sm: 1.5rem;
@@ -511,6 +511,10 @@ hr {
         padding: 0 0.25rem;
     }
 
+    .title{
+        font-size: var(--h1-title-sm);
+    }
+
     .hero-info,
     .hero-banner-img {
         width: 100%;
@@ -540,6 +544,10 @@ hr {
     .plant-lover,
     .plant-lover-info {
         width: 100%;
+    }
+
+    .plant-lover-info h2{
+        font-size: var(--h2-title-sm);
     }
 
     .plant-lover-img {
