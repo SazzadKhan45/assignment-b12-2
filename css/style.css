@@ -385,7 +385,7 @@ p {
 .footer-banner-info h2 {
     color: white;
     font-size: var(--h2-title-lg);
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .email-field {
