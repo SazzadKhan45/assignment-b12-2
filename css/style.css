@@ -364,31 +364,6 @@ p {
 /* Latest deals section style ended here */
 
 
-.filtered-bg {
-
-    position: relative;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    overflow: hidden;
-}
-
-.filtered-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(../assets/deal-zabo.png);
-    background-size: cover;
-    background-position: center;
-    filter: brightness(50%);
-    z-index: 1;
-}
-
 /* Footer banner section style */
 
 .footer-banner-container {
@@ -452,11 +427,17 @@ p {
     width: 5rem;
 }
 
+.footer-links-1 p,
+.footer-links-2 p{
+    margin-bottom: 1rem;
+}
+
 .footer-links-1 a,
 .footer-links-2 a {
     color: var(--p-text-color);
     text-decoration: none;
     font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 .social-icon {
